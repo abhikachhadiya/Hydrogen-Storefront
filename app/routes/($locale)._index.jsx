@@ -27,6 +27,7 @@ export default function Homepage() {
   const data = useLoaderData();
   return (
     <div className="home">
+      <h1>hello this is abhhi</h1>
       <FeaturedCollection collection={data.featuredCollection} />
       <RecommendedProducts products={data.recommendedProducts} />
     </div>
