@@ -28,6 +28,7 @@ export default function Homepage() {
   return (
     <div className="home">
       <h1>hello this is abhhi</h1>
+      <p>making first changes</p>
       <FeaturedCollection collection={data.featuredCollection} />
       <RecommendedProducts products={data.recommendedProducts} />
     </div>
